@@ -10,12 +10,9 @@ Corporate site for **ROHLAX** — Staffing · Development · Consulting.
 | Login | https://rohlax.com/login.html |
 | GitHub Pages backup | https://manikantasaiv26.github.io/rohlax/ |
 
-### Demo login
+## Login
 
-| Field | Value |
-|-------|-------|
-| Email | `demo@rohlax.com` |
-| Password | `rohlax2026` |
+Client portal: https://rohlax.com/login.html
 
 ## GoDaddy DNS (required for rohlax.com)
 

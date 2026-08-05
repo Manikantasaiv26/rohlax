@@ -1,6 +1,6 @@
 (function () {
-  var DEMO_EMAIL = 'demo@rohlax.com';
-  var DEMO_PASSWORD = 'rohlax2026';
+  var AUTH_EMAIL = 'contact@rohlax.com';
+  var AUTH_PASSWORD = '@Sun19Jul26#';
   var STORAGE_KEY = 'rohlax_session';
 
   var loginView = document.getElementById('loginView');
@@ -55,13 +55,13 @@
       var password = document.getElementById('password').value || '';
       var remember = document.getElementById('remember').checked;
 
-      if (email === DEMO_EMAIL && password === DEMO_PASSWORD) {
+      if (email === AUTH_EMAIL && password === AUTH_PASSWORD) {
         if (authError) authError.classList.remove('show');
         setSession(email, remember);
         showDashboard(email);
       } else {
         if (authError) {
-          authError.textContent = 'Invalid email or password. Use the demo credentials below.';
+          authError.textContent = 'Invalid email or password.';
           authError.classList.add('show');
         }
       }
