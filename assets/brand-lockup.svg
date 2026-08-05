@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" fill="none" role="img" aria-label="ROHLAX">
+  <rect width="640" height="220" rx="24" fill="#F7F9FC"/>
+  <!-- Circular emblem -->
+  <circle cx="110" cy="110" r="78" fill="#EEF3F9"/>
+  <circle cx="110" cy="110" r="70" fill="#F7F9FC"/>
+  <!-- Gear left -->
+  <path d="M110 40c-5.5 0-10 4.1-10.8 9.4l-1.5 9.5c-4.1 1.2-7.9 3-11.3 5.4l-8.4-4.6c-4.7-2.6-10.8-1-13.5 3.6l-5.5 9.6c-2.8 4.7-1.2 10.7 3.5 13.6l8.3 5c-.5 2.1-.8 4.3-.8 6.6 0 2.2.3 4.4.8 6.5l-8.3 5c-4.7 2.9-6.3 8.9-3.5 13.6l5.5 9.6c2.7 4.6 8.8 6.2 13.5 3.6l8.4-4.6c3.4 2.4 7.2 4.2 11.3 5.4l1.5 9.5c.8 5.3 5.3 9.4 10.8 9.4V110V40z" fill="#0B1F3A"/>
+  <circle cx="110" cy="110" r="28" fill="#F7F9FC"/>
+  <!-- Tech arcs -->
+  <path d="M134 68a48 48 0 0 1 0 84" stroke="#2F6FED" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M148 82a32 32 0 0 1 0 56" stroke="#2F6FED" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+  <circle cx="134" cy="68" r="6" fill="#2F6FED"/>
+  <circle cx="134" cy="152" r="6" fill="#2F6FED"/>
+  <circle cx="148" cy="82" r="5" fill="#2F6FED"/>
+  <circle cx="148" cy="138" r="5" fill="#2F6FED"/>
+  <!-- Crosshair -->
+  <circle cx="110" cy="110" r="7" fill="#0B1F3A"/>
+  <path d="M110 86v48M86 110h48" stroke="#0B1F3A" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="210" y="108" fill="#0B1F3A" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="4">ROHLAX</text>
+  <text x="210" y="148" fill="#2F6FED" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="3.2">STAFFING " DEVELOPMENT " CONSULTING</text>
+</svg>

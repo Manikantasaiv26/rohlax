@@ -44,15 +44,17 @@
   }
 
   var existing = getSession();
-  if (existing && existing.email) {
+  if (existing && existing.email === AUTH_EMAIL) {
     showDashboard(existing.email);
+  } else if (existing) {
+    clearSession();
   }
 
   if (loginForm) {
     loginForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var email = (document.getElementById('email').value || '').trim().toLowerCase();
-      var password = document.getElementById('password').value || '';
+      var password = (document.getElementById('password').value || '').trim();
       var remember = document.getElementById('remember').checked;
 
       if (email === AUTH_EMAIL && password === AUTH_PASSWORD) {

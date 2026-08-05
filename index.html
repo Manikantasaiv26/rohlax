@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <title>ROHLAX — Staffing · Development · Consulting</title>
   <meta name="description" content="ROHLAX helps organizations move the right people into the right technology work — staffing, development, and consulting." />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=20260805b" />
 </head>
 <body>
   <header class="site-header">
@@ -56,10 +57,9 @@
         </div>
 
         <div class="hero-visual">
-          <div class="glass-frame">
-            <div class="glass-inner">
-              <img src="assets/logo-mark-light.svg" alt="ROHLAX emblem" />
-              <div class="glass-caption">Staffing · Tech · Consulting</div>
+          <div class="glass-frame brand-frame">
+            <div class="glass-inner brand-inner">
+              <img class="brand-lockup" src="assets/brand-lockup.svg" alt="ROHLAX — Staffing, Development, Consulting" />
             </div>
           </div>
         </div>
@@ -123,18 +123,26 @@
 
     <section class="section" id="contact">
       <div class="container">
-        <div class="contact-box">
-          <div>
-            <h2>Ready to move the right people into the right work?</h2>
-            <p>Tell us what you’re building. We’ll respond with a practical next step — staffing, build, or advisory.</p>
-            <a class="btn btn-white" href="login.html">Client login</a>
-          </div>
-          <form class="contact-form" id="contactForm">
-            <input type="text" name="name" placeholder="Your name" required />
-            <input type="email" name="email" placeholder="Work email" required />
-            <textarea name="message" placeholder="What do you need help with?" required></textarea>
-            <button class="btn btn-white" type="submit">Send message</button>
-          </form>
+        <div class="section-head">
+          <span class="eyebrow">Contact</span>
+          <h2>Office Locations</h2>
+          <p>Reach ROHLAX across our global delivery and business centers.</p>
+        </div>
+
+        <div class="offices-grid">
+          <article class="office">
+            <h3>Global Delivery Center</h3>
+            <p>Hyderabad, TG, India</p>
+          </article>
+          <article class="office">
+            <h3>Business Vertical</h3>
+            <p>New Jersey, USA</p>
+          </article>
+          <article class="office office-contact">
+            <h3>Contact ROHLAX</h3>
+            <p><a href="mailto:contact@rohlax.com">contact@rohlax.com</a></p>
+            <p><a href="https://www.rohlax.com" rel="noopener">www.rohlax.com</a></p>
+          </article>
         </div>
       </div>
     </section>
@@ -159,6 +167,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=20260805b"></script>
 </body>
 </html>

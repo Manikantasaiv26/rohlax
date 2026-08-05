@@ -340,6 +340,65 @@ ul {
   font-weight: 600;
 }
 
+.brand-frame {
+  aspect-ratio: 16 / 10;
+  width: min(100%, 520px);
+}
+
+.brand-inner {
+  background: linear-gradient(160deg, #f7f9fc 0%, #eef3f9 100%);
+  box-shadow: inset 0 -1px 0 rgba(47, 111, 237, 0.2);
+  padding: 1.25rem;
+}
+
+.brand-inner::before {
+  background: var(--blue);
+}
+
+.brand-lockup {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto;
+  filter: none !important;
+}
+
+.offices-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.office {
+  background: var(--white);
+  border: 1px solid rgba(11, 31, 58, 0.08);
+  border-radius: var(--radius-md);
+  padding: 1.6rem 1.4rem;
+  box-shadow: 0 10px 30px rgba(11, 31, 58, 0.05);
+}
+
+.office h3 {
+  font-family: var(--display);
+  color: var(--navy);
+  font-size: 1.15rem;
+  margin-bottom: 0.55rem;
+}
+
+.office p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.office a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.office a:hover {
+  text-decoration: underline;
+}
+
+
 /* ---------- Sections ---------- */
 .section {
   padding: 5.5rem 0;
@@ -718,7 +777,8 @@ ul {
   .hero-grid,
   .about-layout,
   .contact-box,
-  .services-grid {
+  .services-grid,
+  .offices-grid {
     grid-template-columns: 1fr;
   }
 
