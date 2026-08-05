@@ -22,6 +22,14 @@ npm run build
 npm run preview
 ```
 
-## Deploy
+## Deploy (free public URL)
 
-Push to GitHub and connect the repo to [Vercel](https://vercel.com) (free) for a public URL, or use GitHub Pages with the build output in `dist/`.
+### Option A — Vercel (recommended, `*.vercel.app`)
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub (free).
+2. Import the `Manikantasaiv26/rohlax` repository.
+3. Deploy — Vercel detects Vite automatically.
+
+### Option B — GitHub Pages (`*.github.io`)
+1. Repo **Settings → Pages → Source: GitHub Actions**.
+2. Run the **Deploy GitHub Pages** workflow (included in `.github/workflows/`).
+3. Site URL: `https://manikantasaiv26.github.io/rohlax/`

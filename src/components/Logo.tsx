@@ -7,30 +7,42 @@ export function LogoMark({ className = 'w-10 h-10' }: { className?: string }) {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <circle cx="32" cy="32" r="30" fill="#F4F7FB" stroke="#002B5B" strokeWidth="2" />
+      <circle cx="32" cy="32" r="31" fill="#F4F7FB" />
+      <circle cx="32" cy="32" r="30.25" stroke="#002B5B" strokeWidth="1.5" />
+
+      {/* Left gear half */}
       <path
-        d="M32 8c-2.2 0-3.2 1.6-3.2 1.6L26.5 12H22l-1.8 3.2L16.5 14l-2.8 2.8 1.2 3.7L12 22v4.5l3 1.8-1.2 3.7L16.5 34l3.7-1.2L22 36.5h4.5l1.8 3 3.2-1.3S28.8 40 32 40V8z"
         fill="#002B5B"
+        d="M32 10c-1.6 0-2.6 1.15-2.6 1.15L27.5 14.2H23l-2.05 3.55-4.15-1.3-3.15 3.15 1.3 4.15L11.4 26.8v4.5l2.95 1.7c0 0 1.15 1 1.15 2.6H32V10z"
       />
+      {/* Gear teeth accents on left rim */}
       <path
-        d="M36 14.5a18 18 0 0 1 13.5 13.2"
+        fill="#002B5B"
+        d="M18.2 13.8l-2.1-1.4-1.6 2.4 2.3 1.2 1.4-2.2zm-6.4 8.6l-2.5-.2-.2 2.6 2.5.4.2-2.8zm.2 9.4l-2.4 1 .9 2.5 2.3-1.2-.8-2.3z"
+      />
+
+      {/* Right arcs + nodes */}
+      <path
+        d="M36.2 15.5a18.8 18.8 0 0 1 13.8 13.6"
         stroke="#1A6FE8"
-        strokeWidth="3.2"
+        strokeWidth="3.3"
         strokeLinecap="round"
       />
-      <circle cx="49.5" cy="27.7" r="2.4" fill="#1A6FE8" />
+      <circle cx="50" cy="29.1" r="2.5" fill="#1A6FE8" />
       <path
-        d="M36 20.5a12 12 0 0 1 9.2 9"
+        d="M36.2 21.2a12.6 12.6 0 0 1 9.5 9.3"
         stroke="#1A6FE8"
-        strokeWidth="3.2"
+        strokeWidth="3.3"
         strokeLinecap="round"
       />
-      <circle cx="45.2" cy="29.5" r="2.4" fill="#1A6FE8" />
-      <circle cx="32" cy="32" r="4.2" fill="#002B5B" />
+      <circle cx="45.7" cy="30.5" r="2.5" fill="#1A6FE8" />
+
+      {/* Center crosshair / target */}
+      <circle cx="32" cy="32" r="4.4" fill="#002B5B" />
       <path
         d="M32 24v16M24 32h16"
         stroke="#002B5B"
-        strokeWidth="1.6"
+        strokeWidth="1.65"
         strokeLinecap="round"
       />
     </svg>
