@@ -362,6 +362,23 @@ ul {
   filter: none !important;
 }
 
+.hero-brand-panel {
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-brand-panel::before {
+  display: none;
+}
+
+.hero-brand-img {
+  width: 100% !important;
+  max-width: none !important;
+  height: 100%;
+  object-fit: cover;
+  filter: none !important;
+}
+
 .offices-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
