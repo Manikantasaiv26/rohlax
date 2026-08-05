@@ -2,34 +2,52 @@
 
 Corporate site for **ROHLAX** — Staffing · Development · Consulting.
 
-Styled after a modern blue-gradient hero layout with glass visual, sticky nav, services, about, contact, and a demo client login.
+## Live URLs (after DNS + Pages)
 
-## Live site
-
-- **GitHub Pages:** https://manikantasaiv26.github.io/rohlax/
-- **Login:** https://manikantasaiv26.github.io/rohlax/login.html
+| Page | URL |
+|------|-----|
+| Home | https://rohlax.com/ |
+| Login | https://rohlax.com/login.html |
+| GitHub Pages backup | https://manikantasaiv26.github.io/rohlax/ |
 
 ### Demo login
 
-| Field    | Value            |
-|----------|------------------|
-| Email    | `demo@rohlax.com` |
-| Password | `rohlax2026`     |
+| Field | Value |
+|-------|-------|
+| Email | `demo@rohlax.com` |
+| Password | `rohlax2026` |
+
+## GoDaddy DNS (required for rohlax.com)
+
+In **DNS Management → DNS Records** for `rohlax.com`:
+
+### 1. Delete / edit parking records
+Remove or change any existing **A** records for `@` that point to GoDaddy parking IPs such as:
+- `76.223.105.230`
+- `13.248.243.5`
+
+Also turn **off** Domain Forwarding if it is on (Forwarding tab).
+
+### 2. Add these records for GitHub Pages
+
+| Type | Name | Data | TTL |
+|------|------|------|-----|
+| A | `@` | `185.199.108.153` | 600 |
+| A | `@` | `185.199.109.153` | 600 |
+| A | `@` | `185.199.110.153` | 600 |
+| A | `@` | `185.199.111.153` | 600 |
+| CNAME | `www` | `manikantasaiv26.github.io.` | 600 |
+
+### 3. Enable GitHub Pages
+Repo → **Settings → Pages**:
+- Source: **Deploy from a branch**
+- Branch: **`gh-pages`** / `/ (root)`
+- Custom domain: **`rohlax.com`** (check “Enforce HTTPS” after DNS propagates)
+
+DNS can take 15–60 minutes (sometimes up to 48 hours).
 
 ## Local preview
 
-Open `index.html` in a browser, or serve the folder:
-
 ```bash
 npx --yes serve .
-```
-
-## Structure
-
-```
-index.html      Landing page
-login.html      Client portal login
-css/styles.css  Styles
-js/             Interactions + demo auth
-assets/         Logo SVGs
 ```
