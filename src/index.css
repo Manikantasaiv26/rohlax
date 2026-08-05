@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy: #002b5b;
+  --color-navy-deep: #001a38;
+  --color-navy-soft: #0a3a6e;
+  --color-blue: #1a6fe8;
+  --color-blue-bright: #3b8cff;
+  --color-blue-soft: #e8f1ff;
+  --color-ink: #0f1c2e;
+  --color-muted: #5b6b7c;
+  --color-line: #d7e0ec;
+  --color-sand: #f3f6fa;
+  --color-cream: #fafbfd;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: var(--color-cream);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-blue) 28%, white);
+    color: var(--color-navy);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .hero-glow {
+    background:
+      radial-gradient(ellipse 70% 80% at 85% 40%, rgba(26, 111, 232, 0.55), transparent 55%),
+      radial-gradient(ellipse 50% 60% at 20% 80%, rgba(0, 43, 91, 0.9), transparent 50%),
+      linear-gradient(135deg, #001229 0%, #002b5b 45%, #0a4a9e 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
