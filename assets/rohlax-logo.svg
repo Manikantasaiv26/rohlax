@@ -1,24 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX logo">
   <rect width="200" height="200" fill="#F6F4EF"/>
-  <!-- LEFT gear: 3 teeth -->
   <g clip-path="url(#L)">
-    <circle cx="100" cy="100" r="52" fill="#0A1E38"/>
+    <circle cx="100" cy="100" r="54" fill="#0A1E38"/>
     <circle cx="100" cy="100" r="30" fill="#F6F4EF"/>
     <g fill="#0A1E38">
-      <g transform="rotate(-55 100 100)"><rect x="86" y="28" width="28" height="18" rx="2"/></g>
-      <rect x="28" y="86" width="18" height="28" rx="2"/>
-      <g transform="rotate(55 100 100)"><rect x="86" y="154" width="28" height="18" rx="2"/></g>
+      <g transform="rotate(-18 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
+      <g transform="rotate(-54 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
+      <g transform="rotate(-90 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
+      <g transform="rotate(-126 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
+      <g transform="rotate(-162 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
     </g>
   </g>
-  <!-- RIGHT: exactly 2 arcs -->
-  <path d="M112 40 A62 62 0 0 1 112 160" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" fill="none"/>
-  <path d="M118 58 A42 42 0 0 1 118 142" stroke="#3B82F6" stroke-width="5.5" stroke-linecap="round" fill="none"/>
-  <!-- 3 nodes on outer arc -->
-  <circle cx="112" cy="40" r="7" fill="#3B82F6"/>
-  <circle cx="112" cy="160" r="7" fill="#3B82F6"/>
-  <circle cx="162" cy="100" r="7" fill="#3B82F6"/>
-  <!-- center + crosshair -->
-  <circle cx="100" cy="100" r="8" fill="#0A1E38"/>
-  <path d="M100 58v34M100 108v34M58 100h34M108 100h34" stroke="#0A1E38" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M112 36 A64 64 0 0 1 112 164" stroke="#3B82F6" stroke-width="8.5" stroke-linecap="round" fill="none"/>
+  <path d="M118 56 A42 42 0 0 1 118 144" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <circle cx="164" cy="100" r="7.5" fill="#3B82F6"/>
+  <circle cx="118" cy="56" r="6.5" fill="#3B82F6"/>
+  <circle cx="118" cy="144" r="6.5" fill="#3B82F6"/>
+  <circle cx="100" cy="100" r="8.5" fill="#0A1E38"/>
+  <path d="M100 50v41M100 109v41M50 100h41M109 100h41" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
   <defs><clipPath id="L"><rect width="100" height="200"/></clipPath></defs>
 </svg>
