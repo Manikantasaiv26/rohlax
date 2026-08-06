@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-label="ROHLAX — Staffing · Development · Consulting">
-  <rect width="640" height="160" fill="#FCFAF6"/>
-  <g transform="translate(8,20) scale(0.67)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 170" role="img" aria-label="ROHLAX — Staffing · Development · Consulting">
+  <rect width="700" height="170" fill="#FAF8F4"/>
+  <g transform="translate(10,15) scale(0.7)">
     <g clip-path="url(#L2)">
       <circle cx="100" cy="100" r="54" fill="#0E1A30"/>
-      <circle cx="100" cy="100" r="29" fill="#FCFAF6"/>
+      <circle cx="100" cy="100" r="29" fill="#FAF8F4"/>
       <g fill="#0E1A30">
         <g transform="rotate(-15 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
         <g transform="rotate(-45 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
@@ -13,15 +13,17 @@
         <g transform="rotate(-165 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
       </g>
     </g>
-    <path d="M112 38 A62 62 0 0 1 112 162" stroke="#409CEB" stroke-width="7" stroke-linecap="round" fill="none"/>
-    <path d="M120 55 A44 44 0 0 1 120 145" stroke="#409CEB" stroke-width="5" stroke-linecap="round" fill="none"/>
-    <circle cx="162" cy="100" r="6.5" fill="#409CEB"/>
-    <circle cx="120" cy="55" r="5.5" fill="#409CEB"/>
-    <circle cx="120" cy="145" r="5.5" fill="#409CEB"/>
+    <path d="M110 34 A64 64 0 0 1 110 166" stroke="#3898EB" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M118 52 A44 44 0 0 1 118 148" stroke="#3898EB" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <circle cx="110" cy="34" r="6.5" fill="#3898EB"/>
+    <circle cx="110" cy="166" r="6.5" fill="#3898EB"/>
+    <circle cx="164" cy="100" r="7" fill="#3898EB"/>
+    <circle cx="118" cy="52" r="5" fill="#3898EB"/>
+    <circle cx="118" cy="148" r="5" fill="#3898EB"/>
     <circle cx="100" cy="100" r="7.5" fill="#0E1A30"/>
-    <path d="M100 58v34M100 108v34M58 100h34M108 100h46" stroke="#0E1A30" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M100 58v34M100 108v34M58 100h34M108 100h48" stroke="#0E1A30" stroke-width="2.4" stroke-linecap="round"/>
   </g>
-  <text x="160" y="78" fill="#0E1A30" font-family="Arial Black, Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="2">ROHLAX</text>
-  <text x="160" y="112" fill="#409CEB" font-family="Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.4">STAFFING • DEVELOPMENT • CONSULTING</text>
+  <text x="155" y="88" fill="#0E1A30" font-family="Arial Black, Helvetica Neue, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="2.5">ROHLAX</text>
+  <text x="155" y="122" fill="#3898EB" font-family="Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.2">STAFFING • DEVELOPMENT • CONSULTING</text>
   <defs><clipPath id="L2"><rect width="100" height="200"/></clipPath></defs>
 </svg>
