@@ -1,29 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="ROHLAX — Staffing · Development · Consulting">
-  <rect width="720" height="200" fill="#FAF8F4"/>
-  <g transform="translate(16,10)">
-    <g clip-path="url(#L)">
-      <circle cx="90" cy="90" r="52" fill="#0F1C34"/>
-      <circle cx="90" cy="90" r="28" fill="#FAF8F4"/>
-      <g fill="#0F1C34">
-        <g transform="rotate(-15 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
-        <g transform="rotate(-45 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
-        <g transform="rotate(-75 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
-        <g transform="rotate(-105 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
-        <g transform="rotate(-135 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
-        <g transform="rotate(-165 90 90)"><rect x="77" y="22" width="26" height="15" rx="2"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-label="ROHLAX — Staffing · Development · Consulting">
+  <rect width="640" height="160" fill="#FCFAF6"/>
+  <g transform="translate(8,20) scale(0.67)">
+    <g clip-path="url(#L2)">
+      <circle cx="100" cy="100" r="54" fill="#0E1A30"/>
+      <circle cx="100" cy="100" r="29" fill="#FCFAF6"/>
+      <g fill="#0E1A30">
+        <g transform="rotate(-15 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
+        <g transform="rotate(-45 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
+        <g transform="rotate(-75 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
+        <g transform="rotate(-105 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
+        <g transform="rotate(-135 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
+        <g transform="rotate(-165 100 100)"><rect x="86" y="24" width="28" height="15" rx="1.5"/></g>
       </g>
     </g>
-    <path d="M101 32 A58 58 0 0 1 101 148" stroke="#4696E6" stroke-width="7" stroke-linecap="round" fill="none"/>
-    <path d="M108 50 A40 40 0 0 1 108 130" stroke="#4696E6" stroke-width="5" stroke-linecap="round" fill="none"/>
-    <circle cx="101" cy="32" r="6" fill="#4696E6"/>
-    <circle cx="101" cy="148" r="6" fill="#4696E6"/>
-    <circle cx="148" cy="90" r="6.5" fill="#4696E6"/>
-    <circle cx="108" cy="50" r="4.5" fill="#4696E6"/>
-    <circle cx="108" cy="130" r="4.5" fill="#4696E6"/>
-    <circle cx="90" cy="90" r="7.5" fill="#0F1C34"/>
-    <path d="M90 45v37M90 98v37M45 90h37M98 90h37" stroke="#0F1C34" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M112 38 A62 62 0 0 1 112 162" stroke="#409CEB" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M120 55 A44 44 0 0 1 120 145" stroke="#409CEB" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <circle cx="162" cy="100" r="6.5" fill="#409CEB"/>
+    <circle cx="120" cy="55" r="5.5" fill="#409CEB"/>
+    <circle cx="120" cy="145" r="5.5" fill="#409CEB"/>
+    <circle cx="100" cy="100" r="7.5" fill="#0E1A30"/>
+    <path d="M100 58v34M100 108v34M58 100h34M108 100h46" stroke="#0E1A30" stroke-width="2.4" stroke-linecap="round"/>
   </g>
-  <text x="220" y="95" fill="#0F1C34" font-family="Arial Black, Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="3.5">ROHLAX</text>
-  <text x="220" y="132" fill="#0F1C34" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2.8">STAFFING <tspan fill="#4696E6">•</tspan> DEVELOPMENT <tspan fill="#4696E6">•</tspan> CONSULTING</text>
-  <defs><clipPath id="L"><rect width="90" height="180"/></clipPath></defs>
+  <text x="160" y="78" fill="#0E1A30" font-family="Arial Black, Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="2">ROHLAX</text>
+  <text x="160" y="112" fill="#409CEB" font-family="Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.4">STAFFING • DEVELOPMENT • CONSULTING</text>
+  <defs><clipPath id="L2"><rect width="100" height="200"/></clipPath></defs>
 </svg>
