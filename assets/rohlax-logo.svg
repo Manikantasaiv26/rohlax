@@ -4,19 +4,21 @@
     <circle cx="100" cy="100" r="54" fill="#0A1E38"/>
     <circle cx="100" cy="100" r="30" fill="#F6F4EF"/>
     <g fill="#0A1E38">
-      <g transform="rotate(-18 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
-      <g transform="rotate(-54 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
-      <g transform="rotate(-90 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
-      <g transform="rotate(-126 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
-      <g transform="rotate(-162 100 100)"><rect x="85" y="24" width="30" height="18" rx="2"/></g>
+      <g transform="rotate(-15 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
+      <g transform="rotate(-45 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
+      <g transform="rotate(-75 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
+      <g transform="rotate(-105 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
+      <g transform="rotate(-135 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
+      <g transform="rotate(-165 100 100)"><rect x="86" y="24" width="28" height="16" rx="2"/></g>
     </g>
   </g>
-  <path d="M112 36 A64 64 0 0 1 112 164" stroke="#3B82F6" stroke-width="8.5" stroke-linecap="round" fill="none"/>
-  <path d="M118 56 A42 42 0 0 1 118 144" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none"/>
-  <circle cx="164" cy="100" r="7.5" fill="#3B82F6"/>
-  <circle cx="118" cy="56" r="6.5" fill="#3B82F6"/>
-  <circle cx="118" cy="144" r="6.5" fill="#3B82F6"/>
+  <path d="M110 34 A66 66 0 0 1 110 166" stroke="#3B82F6" stroke-width="8.5" stroke-linecap="round" fill="none"/>
+  <path d="M116 48 A50 50 0 0 1 116 152" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <path d="M120 62 A36 36 0 0 1 120 138" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="110" cy="34" r="7" fill="#3B82F6"/>
+  <circle cx="110" cy="166" r="7" fill="#3B82F6"/>
+  <circle cx="166" cy="100" r="7.5" fill="#3B82F6"/>
   <circle cx="100" cy="100" r="8.5" fill="#0A1E38"/>
-  <path d="M100 50v41M100 109v41M50 100h41M109 100h41" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M100 48v43M100 109v43M48 100h43M109 100h43" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
   <defs><clipPath id="L"><rect width="100" height="200"/></clipPath></defs>
 </svg>
