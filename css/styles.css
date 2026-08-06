@@ -107,16 +107,23 @@ ul {
   margin-top: 0.15rem;
 }
 
+.nav-end {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 3.25rem; /* larger space between Contact and Talk to us */
+}
+
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap: 2.25rem; /* even space between Home / About / Services / Contact */
 }
 
 .nav-links a {
   font-size: 0.95rem;
-  font-weight: 550;
-  color: #3d4d61;
+  font-weight: 500;
+  color: #4a5a6d;
   transition: color 0.2s ease;
 }
 
@@ -129,6 +136,12 @@ ul {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.nav-actions .btn-navy {
+  padding: 0.72rem 1.35rem;
+  border-radius: 8px;
+  font-weight: 650;
 }
 
 .menu-toggle {
@@ -990,6 +1003,10 @@ ul {
 
   .menu-toggle {
     display: inline-block;
+  }
+
+  .nav-end {
+    gap: 0.75rem;
   }
 
   .nav.open .nav-links {
