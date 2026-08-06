@@ -1,46 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX logo">
-  <circle cx="100" cy="100" r="92" fill="#F6F4EF"/>
+  <rect width="200" height="200" fill="#F6F4EF"/>
 
-  <!-- LEFT gear half  5 teeth -->
-  <g clip-path="url(#L)">
-    <circle cx="100" cy="100" r="50" fill="#0A1E38"/>
+  <!-- LEFT: navy gear half (10-tooth gear clipped → 5 teeth) -->
+  <g clip-path="url(#leftHalf)">
+    <path fill="#0A1E38" d="M100.00,53.00 L107.00,38.40 L114.66,39.76 L115.92,55.78 L123.16,59.10 L127.63,61.98 L141.87,54.27 L147.27,59.88 L138.87,73.58 L142.77,80.52 L144.70,85.48 L160.75,87.62 L161.82,95.33 L146.98,101.48 L146.05,109.39 L144.70,114.52 L156.43,125.69 L152.76,132.56 L137.14,128.81 L131.74,134.66 L127.63,138.02 L130.55,153.95 L123.55,157.35 L113.11,145.13 L105.30,146.70 L100.00,147.00 L93.00,161.60 L85.34,160.24 L84.08,144.22 L76.84,140.90 L72.37,138.02 L58.13,145.73 L52.73,140.12 L61.13,126.42 L57.23,119.48 L55.30,114.52 L39.25,112.38 L38.18,104.67 L53.02,98.52 L53.95,90.61 L55.30,85.48 L43.57,74.31 L47.24,67.44 L62.86,71.19 L68.26,65.34 L72.37,61.98 L69.45,46.05 L76.45,42.65 L86.89,54.87 L94.70,53.30 Z"/>
     <circle cx="100" cy="100" r="28" fill="#F6F4EF"/>
-    <g fill="#0A1E38">
-      <!-- tooth 1 top -->
-      <rect x="89" y="36" width="22" height="13" rx="1.5"/>
-      <!-- tooth 2 -->
-      <g transform="rotate(-36 100 100)"><rect x="89" y="36" width="22" height="13" rx="1.5"/></g>
-      <!-- tooth 3 mid-left -->
-      <rect x="36" y="89" width="13" height="22" rx="1.5"/>
-      <!-- tooth 4 -->
-      <g transform="rotate(36 100 100)"><rect x="89" y="151" width="22" height="13" rx="1.5"/></g>
-      <!-- tooth 5 bottom -->
-      <rect x="89" y="151" width="22" height="13" rx="1.5"/>
-    </g>
   </g>
 
-  <!-- RIGHT three arcs -->
-  <path d="M115 48 A55 55 0 0 1 115 152" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
-  <path d="M128 62 A40 40 0 0 1 128 138" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M139 76 A26 26 0 0 1 139 124" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round"/>
+  <!-- RIGHT: three concentric cerulean arcs -->
+  <path d="M108 42 A58 58 0 0 1 108 158" stroke="#3B82F6" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+  <path d="M114 56 A42 42 0 0 1 114 144" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <path d="M112 74 A26 26 0 0 1 112 126" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none"/>
 
-  <!-- nodes ends + mid -->
-  <circle cx="115" cy="48" r="6" fill="#3B82F6"/>
-  <circle cx="115" cy="152" r="6" fill="#3B82F6"/>
-  <circle cx="155" cy="100" r="6" fill="#3B82F6"/>
-  <circle cx="128" cy="62" r="5" fill="#3B82F6"/>
-  <circle cx="128" cy="138" r="5" fill="#3B82F6"/>
-  <circle cx="139" cy="76" r="4.5" fill="#3B82F6"/>
-  <circle cx="139" cy="124" r="4.5" fill="#3B82F6"/>
+  <!-- Outer nodes (ends + mid) -->
+  <circle cx="108" cy="42" r="6.5" fill="#3B82F6"/>
+  <circle cx="108" cy="158" r="6.5" fill="#3B82F6"/>
+  <circle cx="158" cy="100" r="6.5" fill="#3B82F6"/>
+  <!-- Mid nodes -->
+  <circle cx="114" cy="56" r="5.5" fill="#3B82F6"/>
+  <circle cx="114" cy="144" r="5.5" fill="#3B82F6"/>
+  <circle cx="142" cy="100" r="5.5" fill="#3B82F6"/>
+  <!-- Inner nodes -->
+  <circle cx="112" cy="74" r="4.5" fill="#3B82F6"/>
+  <circle cx="112" cy="126" r="4.5" fill="#3B82F6"/>
+  <circle cx="126" cy="100" r="4.5" fill="#3B82F6"/>
 
-  <path d="M142 58 A48 48 0 0 1 155 100" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M155 100 A48 48 0 0 1 142 142" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-
-  <!-- center + crosshair -->
-  <circle cx="100" cy="100" r="7.5" fill="#0A1E38"/>
-  <path d="M100 55v32M100 113v32M65 100h27M108 100h40" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Center + crosshair -->
+  <circle cx="100" cy="100" r="8" fill="#0A1E38"/>
+  <path d="M100 48v36M100 116v36M54 100h38M108 100h42" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
 
   <defs>
-    <clipPath id="L"><rect width="100" height="200"/></clipPath>
+    <clipPath id="leftHalf"><rect width="100" height="200"/></clipPath>
   </defs>
 </svg>

@@ -1,46 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX logo">
-  <circle cx="100" cy="100" r="92" fill="#F6F4EF"/>
+  <rect width="200" height="200" fill="#F6F4EF"/>
 
-  <!-- LEFT gear half  5 teeth -->
-  <g clip-path="url(#L)">
-    <circle cx="100" cy="100" r="50" fill="#0A1E38"/>
-    <circle cx="100" cy="100" r="28" fill="#F6F4EF"/>
+  <!-- LEFT: navy gear half — 5 blocky teeth fully on left -->
+  <g clip-path="url(#leftHalf)">
+    <circle cx="100" cy="100" r="48" fill="#0A1E38"/>
+    <circle cx="100" cy="100" r="27" fill="#F6F4EF"/>
     <g fill="#0A1E38">
-      <!-- tooth 1 top -->
-      <rect x="89" y="36" width="22" height="13" rx="1.5"/>
-      <!-- tooth 2 -->
-      <g transform="rotate(-36 100 100)"><rect x="89" y="36" width="22" height="13" rx="1.5"/></g>
-      <!-- tooth 3 mid-left -->
-      <rect x="36" y="89" width="13" height="22" rx="1.5"/>
-      <!-- tooth 4 -->
-      <g transform="rotate(36 100 100)"><rect x="89" y="151" width="22" height="13" rx="1.5"/></g>
-      <!-- tooth 5 bottom -->
-      <rect x="89" y="151" width="22" height="13" rx="1.5"/>
+      <!-- tooth angles on left semicircle: -72, -108, -144, -180, -216 deg from east -->
+      <g transform="rotate(-72 100 100)"><rect x="86" y="30" width="28" height="18" rx="2.5"/></g>
+      <g transform="rotate(-108 100 100)"><rect x="86" y="30" width="28" height="18" rx="2.5"/></g>
+      <g transform="rotate(-144 100 100)"><rect x="86" y="30" width="28" height="18" rx="2.5"/></g>
+      <g transform="rotate(-180 100 100)"><rect x="86" y="30" width="28" height="18" rx="2.5"/></g>
+      <g transform="rotate(-216 100 100)"><rect x="86" y="30" width="28" height="18" rx="2.5"/></g>
     </g>
   </g>
 
-  <!-- RIGHT three arcs -->
-  <path d="M115 48 A55 55 0 0 1 115 152" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
-  <path d="M128 62 A40 40 0 0 1 128 138" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M139 76 A26 26 0 0 1 139 124" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round"/>
+  <!-- RIGHT: three concentric cerulean arcs with nodes -->
+  <path d="M106 42 A58 58 0 0 1 106 158" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M112 56 A42 42 0 0 1 112 144" stroke="#3B82F6" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M110 74 A26 26 0 0 1 110 126" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round" fill="none"/>
 
-  <!-- nodes ends + mid -->
-  <circle cx="115" cy="48" r="6" fill="#3B82F6"/>
-  <circle cx="115" cy="152" r="6" fill="#3B82F6"/>
-  <circle cx="155" cy="100" r="6" fill="#3B82F6"/>
-  <circle cx="128" cy="62" r="5" fill="#3B82F6"/>
-  <circle cx="128" cy="138" r="5" fill="#3B82F6"/>
-  <circle cx="139" cy="76" r="4.5" fill="#3B82F6"/>
-  <circle cx="139" cy="124" r="4.5" fill="#3B82F6"/>
+  <!-- Outer nodes -->
+  <circle cx="106" cy="42" r="6.5" fill="#3B82F6"/>
+  <circle cx="106" cy="158" r="6.5" fill="#3B82F6"/>
+  <circle cx="158" cy="100" r="6.5" fill="#3B82F6"/>
+  <!-- Mid nodes -->
+  <circle cx="112" cy="56" r="5.5" fill="#3B82F6"/>
+  <circle cx="112" cy="144" r="5.5" fill="#3B82F6"/>
+  <circle cx="142" cy="100" r="5.5" fill="#3B82F6"/>
+  <!-- Inner nodes -->
+  <circle cx="110" cy="74" r="4.5" fill="#3B82F6"/>
+  <circle cx="110" cy="126" r="4.5" fill="#3B82F6"/>
+  <circle cx="126" cy="100" r="4.5" fill="#3B82F6"/>
 
-  <path d="M142 58 A48 48 0 0 1 155 100" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M155 100 A48 48 0 0 1 142 142" stroke="#3B82F6" stroke-width="7" stroke-linecap="round"/>
-
-  <!-- center + crosshair -->
-  <circle cx="100" cy="100" r="7.5" fill="#0A1E38"/>
-  <path d="M100 55v32M100 113v32M65 100h27M108 100h40" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Center + crosshair -->
+  <circle cx="100" cy="100" r="8" fill="#0A1E38"/>
+  <path d="M100 48v36M100 116v36M54 100h38M108 100h44" stroke="#0A1E38" stroke-width="2.8" stroke-linecap="round"/>
 
   <defs>
-    <clipPath id="L"><rect width="100" height="200"/></clipPath>
+    <clipPath id="leftHalf"><rect width="100" height="200"/></clipPath>
   </defs>
 </svg>
