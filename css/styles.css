@@ -118,11 +118,12 @@ ul {
 }
 
 .brand img {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   flex-shrink: 0;
   border-radius: 50%;
   background: #faf8f4;
+  object-fit: cover;
 }
 
 .brand-lockup-link {
@@ -150,19 +151,32 @@ ul {
 .brand-text strong {
   display: block;
   font-family: var(--display);
-  font-size: 1.2rem;
-  letter-spacing: 0.04em;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
   color: var(--navy);
-  line-height: 1.1;
+  line-height: 1.15;
+  font-weight: 700;
 }
 
 .brand-text span {
   display: block;
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
+  font-family: var(--display);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
-  margin-top: 0.15rem;
+  color: var(--sky);
+  margin-top: 0.28rem;
+  line-height: 1.35;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.footer-inner .brand-text strong {
+  color: var(--white);
+}
+
+.footer-inner .brand-text span {
+  color: var(--blue-bright);
 }
 
 .nav-end {
@@ -878,13 +892,7 @@ ul {
   align-items: center;
 }
 
-.footer-inner .brand-text strong {
-  color: var(--white);
-}
 
-.footer-inner .brand-text span {
-  color: rgba(255, 255, 255, 0.55);
-}
 
 .footer-links {
   display: flex;
