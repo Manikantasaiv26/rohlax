@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX logo">
   <rect width="200" height="200" fill="#FAF8F4"/>
   <g clip-path="url(#L)">
-    <circle cx="100" cy="100" r="55" fill="#0B162C"/>
-    <circle cx="100" cy="100" r="30" fill="#FAF8F4"/>
-    <g fill="#0B162C">
-      <g transform="rotate(-18 100 100)"><rect x="84" y="22" width="32" height="17" rx="1.5"/></g>
-      <g transform="rotate(-54 100 100)"><rect x="84" y="22" width="32" height="17" rx="1.5"/></g>
-      <g transform="rotate(-90 100 100)"><rect x="84" y="22" width="32" height="17" rx="1.5"/></g>
-      <g transform="rotate(-126 100 100)"><rect x="84" y="22" width="32" height="17" rx="1.5"/></g>
-      <g transform="rotate(-162 100 100)"><rect x="84" y="22" width="32" height="17" rx="1.5"/></g>
+    <circle cx="100" cy="100" r="54" fill="#0D1A30"/>
+    <circle cx="100" cy="100" r="29" fill="#FAF8F4"/>
+    <g fill="#0D1A30">
+      <g transform="rotate(-18 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-54 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-90 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-126 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-162 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
     </g>
   </g>
-  <path d="M108 32 A66 66 0 0 1 108 168" stroke="#3CA4F1" stroke-width="6.5" stroke-linecap="round" fill="none"/>
-  <path d="M118 50 A46 46 0 0 1 118 150" stroke="#3CA4F1" stroke-width="8.5" stroke-linecap="round" fill="none"/>
-  <circle cx="108" cy="32" r="7" fill="#3CA4F1"/>
-  <circle cx="108" cy="168" r="7" fill="#3CA4F1"/>
-  <circle cx="166" cy="100" r="7.5" fill="#3CA4F1"/>
-  <circle cx="100" cy="100" r="9" fill="#0B162C"/>
-  <path d="M100 55v35M100 110v35M55 100h35M110 100h48" stroke="#0B162C" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M110 34 A64 64 0 0 1 110 166" stroke="#3898EB" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M118 52 A44 44 0 0 1 118 148" stroke="#3898EB" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+  <circle cx="110" cy="34" r="6.5" fill="#3898EB"/>
+  <circle cx="110" cy="166" r="6.5" fill="#3898EB"/>
+  <circle cx="164" cy="100" r="7" fill="#3898EB"/>
+  <circle cx="100" cy="100" r="7.5" fill="#0D1A30"/>
+  <path d="M100 58v34M100 108v34M58 100h34M108 100h48" stroke="#0D1A30" stroke-width="2.4" stroke-linecap="round"/>
   <defs><clipPath id="L"><rect width="100" height="200"/></clipPath></defs>
 </svg>
