@@ -1,49 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="ROHLAX logo">
-  <!-- Soft cream circular badge -->
-  <circle cx="60" cy="60" r="58" fill="#F5F2EC"/>
-  <circle cx="60" cy="60" r="52" fill="#FAF8F4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="ROHLAX logo">
+  <!-- Soft cream circular badge (1st image style) -->
+  <circle cx="100" cy="100" r="96" fill="#F3F0EA"/>
+  <circle cx="100" cy="100" r="88" fill="#FAF8F4"/>
 
   <!-- LEFT: dark navy gear half -->
-  <g clip-path="url(#clipLeft)">
-    <!-- Gear body ring -->
-    <circle cx="60" cy="60" r="34" fill="#0B1F3A"/>
-    <circle cx="60" cy="60" r="22" fill="#FAF8F4"/>
-    <!-- Teeth around left half -->
-    <rect x="52" y="18" width="16" height="14" rx="2" fill="#0B1F3A"/>
-    <rect x="52" y="88" width="16" height="14" rx="2" fill="#0B1F3A"/>
-    <rect x="18" y="52" width="14" height="16" rx="2" fill="#0B1F3A"/>
-    <g transform="rotate(-45 60 60)">
-      <rect x="52" y="18" width="16" height="14" rx="2" fill="#0B1F3A"/>
-      <rect x="52" y="88" width="16" height="14" rx="2" fill="#0B1F3A"/>
-    </g>
-    <g transform="rotate(45 60 60)">
-      <rect x="52" y="18" width="16" height="14" rx="2" fill="#0B1F3A"/>
-      <rect x="52" y="88" width="16" height="14" rx="2" fill="#0B1F3A"/>
+  <g clip-path="url(#clipL)">
+    <circle cx="100" cy="100" r="56" fill="#0B1F3A"/>
+    <circle cx="100" cy="100" r="32" fill="#FAF8F4"/>
+    <!-- teeth -->
+    <g fill="#0B1F3A">
+      <rect x="88" y="30" width="24" height="16" rx="2"/>
+      <rect x="88" y="154" width="24" height="16" rx="2"/>
+      <rect x="30" y="88" width="16" height="24" rx="2"/>
+      <g transform="rotate(36 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(72 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(-36 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(-72 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(144 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(216 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(108 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
+      <g transform="rotate(252 100 100)"><rect x="88" y="30" width="24" height="16" rx="2"/></g>
     </g>
   </g>
 
-  <!-- RIGHT: bright blue arcs + nodes -->
-  <path d="M70 29.5a34.5 34.5 0 0 1 0 61" stroke="#3B82F6" stroke-width="5.5" stroke-linecap="round" fill="none"/>
-  <path d="M80 41a23 23 0 0 1 0 38" stroke="#3B82F6" stroke-width="4.5" stroke-linecap="round" fill="none"/>
-  <path d="M82 34a36 36 0 0 1 14 26" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <path d="M96 60a36 36 0 0 1-14 26" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- RIGHT: three concentric bright-blue arcs with end nodes -->
+  <path d="M116 40 A64 64 0 0 1 116 160" stroke="#2F6FED" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+  <path d="M128 52 A50 50 0 0 1 128 148" stroke="#2F6FED" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <path d="M140 66 A36 36 0 0 1 140 134" stroke="#2F6FED" stroke-width="6" stroke-linecap="round" fill="none"/>
 
-  <!-- Nodes: top, middle-right, bottom -->
-  <circle cx="70" cy="29.5" r="5.2" fill="#3B82F6"/>
-  <circle cx="96" cy="60" r="5.2" fill="#3B82F6"/>
-  <circle cx="70" cy="90.5" r="5.2" fill="#3B82F6"/>
+  <!-- Nodes on each arc (top / mid-right / bottom) -->
+  <circle cx="116" cy="40" r="7.5" fill="#2F6FED"/>
+  <circle cx="116" cy="160" r="7.5" fill="#2F6FED"/>
+  <circle cx="128" cy="52" r="6.5" fill="#2F6FED"/>
+  <circle cx="128" cy="148" r="6.5" fill="#2F6FED"/>
+  <circle cx="164" cy="100" r="7.5" fill="#2F6FED"/>
+  <circle cx="140" cy="66" r="5.5" fill="#2F6FED"/>
+  <circle cx="140" cy="134" r="5.5" fill="#2F6FED"/>
+
+  <!-- Arc segments toward mid-right node -->
+  <path d="M148 58 A58 58 0 0 1 164 100" stroke="#2F6FED" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M164 100 A58 58 0 0 1 148 142" stroke="#2F6FED" stroke-width="7" stroke-linecap="round" fill="none"/>
 
   <!-- CENTER crosshair -->
-  <circle cx="60" cy="60" r="6" fill="#0B1F3A"/>
-  <!-- up / down / left / right -->
-  <path d="M60 32v22" stroke="#0B1F3A" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M60 66v22" stroke="#0B1F3A" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M38 60h16" stroke="#0B1F3A" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M66 60h30" stroke="#0B1F3A" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="10" fill="#0B1F3A"/>
+  <path d="M100 48 v40" stroke="#0B1F3A" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M100 112 v40" stroke="#0B1F3A" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M58 100 h32" stroke="#0B1F3A" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M110 100 h54" stroke="#0B1F3A" stroke-width="3.4" stroke-linecap="round"/>
 
   <defs>
-    <clipPath id="clipLeft">
-      <rect x="0" y="0" width="60" height="120"/>
+    <clipPath id="clipL">
+      <rect x="0" y="0" width="100" height="200"/>
     </clipPath>
   </defs>
 </svg>
