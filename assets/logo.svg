@@ -4,18 +4,20 @@
     <circle cx="100" cy="100" r="54" fill="#0D1A30"/>
     <circle cx="100" cy="100" r="29" fill="#FAF8F4"/>
     <g fill="#0D1A30">
-      <g transform="rotate(-35 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
-      <g transform="rotate(-70 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
-      <g transform="rotate(-110 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
-      <g transform="rotate(-145 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-18 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-54 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-90 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-126 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
+      <g transform="rotate(-162 100 100)"><rect x="85" y="24" width="30" height="16" rx="1.5"/></g>
     </g>
   </g>
-  <path d="M110 35 A64 64 0 0 1 110 165" stroke="#3898EB" stroke-width="7" stroke-linecap="round" fill="none"/>
-  <path d="M118 52 A44 44 0 0 1 118 148" stroke="#3898EB" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <circle cx="110" cy="35" r="6.5" fill="#3898EB"/>
-  <circle cx="110" cy="165" r="6.5" fill="#3898EB"/>
-  <circle cx="164" cy="100" r="7" fill="#3898EB"/>
+  <path d="M108 32 A66 66 0 0 1 108 168" stroke="#3898EB" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+  <path d="M116 48 A50 50 0 0 1 116 152" stroke="#3898EB" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M124 64 A34 34 0 0 1 124 136" stroke="#3898EB" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="108" cy="32" r="6.5" fill="#3898EB"/>
+  <circle cx="108" cy="168" r="6.5" fill="#3898EB"/>
+  <circle cx="166" cy="100" r="7" fill="#3898EB"/>
   <circle cx="100" cy="100" r="7.5" fill="#0D1A30"/>
-  <path d="M100 58v34M100 108v34M58 100h34M108 100h48" stroke="#0D1A30" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M100 58v34M100 108v34M58 100h34M108 100h50" stroke="#0D1A30" stroke-width="2.4" stroke-linecap="round"/>
   <defs><clipPath id="L"><rect width="100" height="200"/></clipPath></defs>
 </svg>
