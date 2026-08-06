@@ -1,4 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --navy: #0b1f3a;
@@ -6,7 +38,7 @@
   --blue: #2f6fed;
   --blue-bright: #5ba0ff;
   --blue-soft: #d7e6ff;
-  --sky: #3d8bfd;
+  --sky: #3898eb;
   --white: #ffffff;
   --beige: #f4f3ed;
   --beige-deep: #ebe9e1;
@@ -18,7 +50,7 @@
   --radius-lg: 28px;
   --shadow: 0 18px 50px rgba(7, 21, 40, 0.12);
   --font: 'Manrope', sans-serif;
-  --display: 'Space Grotesk', sans-serif;
+  --display: 'Montserrat', 'Manrope', sans-serif;
 }
 
 *,
