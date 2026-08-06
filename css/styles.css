@@ -819,13 +819,154 @@ ul {
   50% { transform: translateY(-10px); }
 }
 
+/* ---------- Talk to us page ---------- */
+.talk-page {
+  background: #eaf2fb;
+  min-height: 100vh;
+}
+
+.talk-header {
+  background: rgba(234, 242, 251, 0.92);
+  border-bottom: 1px solid rgba(11, 31, 58, 0.05);
+}
+
+.talk-main {
+  padding: 3rem 0 4.5rem;
+}
+
+.talk-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 640px) minmax(220px, 280px);
+  gap: 2rem;
+  align-items: start;
+  justify-content: center;
+}
+
+.talk-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2.25rem 2rem 2rem;
+  box-shadow: 0 16px 40px rgba(11, 31, 58, 0.08);
+  display: grid;
+  gap: 1.15rem;
+  animation: rise-in 0.55s ease both;
+}
+
+.talk-card-head h1 {
+  font-family: var(--display);
+  font-size: clamp(1.7rem, 3vw, 2.1rem);
+  color: var(--navy);
+  margin-bottom: 0.35rem;
+}
+
+.talk-card-head p {
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.talk-field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.talk-field span {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.talk-field input,
+.talk-field textarea {
+  width: 100%;
+  border: 1px solid #d5dde8;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--white);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.talk-field textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.talk-field input::placeholder,
+.talk-field textarea::placeholder {
+  color: #9aa6b5;
+}
+
+.talk-field input:focus,
+.talk-field textarea:focus {
+  border-color: #7aa2e8;
+  box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.12);
+}
+
+.talk-submit {
+  justify-self: start;
+  min-width: 150px;
+  margin-top: 0.25rem;
+}
+
+.talk-success {
+  background: #e8f7ee;
+  color: #146c2e;
+  border: 1px solid #b7e4c7;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.talk-aside {
+  padding: 0.5rem 0;
+  animation: rise-in 0.65s ease 0.08s both;
+}
+
+.talk-aside h2 {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+.talk-office {
+  display: grid;
+  gap: 0.2rem;
+  margin-bottom: 1.15rem;
+}
+
+.talk-office strong {
+  color: var(--navy);
+  font-size: 0.95rem;
+}
+
+.talk-office span,
+.talk-office a {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.talk-office a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.talk-office a:hover {
+  text-decoration: underline;
+}
+
+
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
   .hero-grid,
   .about-layout,
   .contact-box,
   .services-grid,
-  .offices-grid {
+  .offices-grid,
+  .talk-wrap {
     grid-template-columns: 1fr;
   }
 
@@ -891,5 +1032,13 @@ ul {
 
   .contact-box {
     padding: 1.5rem;
+  }
+
+  .talk-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .talk-main {
+    padding: 2rem 0 3rem;
   }
 }
