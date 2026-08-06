@@ -93,6 +93,28 @@ ul {
   background: #faf8f4;
 }
 
+.brand-lockup-link {
+  gap: 0;
+}
+
+.brand-lockup-img {
+  width: auto !important;
+  height: 52px !important;
+  max-width: min(280px, 58vw) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-lockup {
+  height: 44px !important;
+  max-width: min(240px, 70vw) !important;
+  background: #f6f4ef !important;
+  border-radius: 10px !important;
+  padding: 4px 8px;
+}
+
 .brand-text strong {
   display: block;
   font-family: var(--display);
@@ -255,7 +277,7 @@ ul {
   gap: 0.7rem;
   background: var(--white);
   color: var(--navy);
-  padding: 0.55rem 0.9rem 0.55rem 0.55rem;
+  padding: 0.45rem 0.75rem;
   border-radius: 14px;
   box-shadow: var(--shadow);
   margin-bottom: 1.75rem;
@@ -267,6 +289,15 @@ ul {
   height: 36px;
   border-radius: 50%;
   background: #faf8f4;
+}
+
+.hero-chip-lockup {
+  width: auto !important;
+  height: 40px !important;
+  max-width: min(240px, 72vw) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  object-fit: contain;
 }
 
 .hero-brand-chip strong {
@@ -327,11 +358,11 @@ ul {
 .hero-soft-card {
   position: relative;
   z-index: 1;
-  width: min(100%, 360px);
+  width: min(100%, 400px);
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(11, 31, 58, 0.06);
   border-radius: 28px;
-  padding: 2.4rem 1.75rem 2rem;
+  padding: 2.2rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,6 +371,16 @@ ul {
   box-shadow: 0 20px 50px rgba(29, 38, 45, 0.08);
   backdrop-filter: blur(10px);
   animation: soft-float 5.5s ease-in-out infinite;
+}
+
+.hero-company-logo {
+  width: 100% !important;
+  max-width: 340px !important;
+  height: auto !important;
+  display: block;
+  border-radius: 12px;
+  background: #f6f4ef;
+  object-fit: contain;
 }
 
 .hero-logo-mark {
