@@ -401,19 +401,6 @@ ul {
   animation: rise-in 0.8s ease 0.2s both;
 }
 
-.hero-brand-chip img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: #faf8f4;
-}
-
-.hero-brand-chip strong {
-  font-family: var(--display);
-  font-size: 0.95rem;
-  letter-spacing: 0.06em;
-}
-
 .hero-logo-mark {
   width: 132px !important;
   height: 132px !important;
@@ -852,6 +839,206 @@ ul {
   50% { transform: translateY(-10px); }
 }
 
+/* ---------- Intelligence System (live dual models) ---------- */
+.intel-section {
+  background: #f4f0e8;
+  padding: 5.5rem 0 5rem;
+  color: #2a221c;
+}
+
+.intel-head {
+  max-width: 720px;
+  margin-bottom: 2.75rem;
+}
+
+.intel-eyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #a65d3b;
+  margin-bottom: 0.85rem;
+}
+
+.intel-head h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.9rem, 3.4vw, 2.7rem);
+  line-height: 1.2;
+  color: #2a221c;
+  font-weight: 600;
+  margin-bottom: 0.85rem;
+}
+
+.intel-head p {
+  color: #6b5f54;
+  font-size: 1.05rem;
+  max-width: 52ch;
+  margin-bottom: 1.1rem;
+}
+
+.intel-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2f6a45;
+  background: rgba(47, 106, 69, 0.08);
+  border: 1px solid rgba(47, 106, 69, 0.18);
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+}
+
+.intel-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2f9e5d;
+  box-shadow: 0 0 0 0 rgba(47, 158, 93, 0.55);
+  animation: live-pulse 1.6s ease-out infinite;
+}
+
+@keyframes live-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(47, 158, 93, 0.5); }
+  70% { box-shadow: 0 0 0 10px rgba(47, 158, 93, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(47, 158, 93, 0); }
+}
+
+.intel-board {
+  display: grid;
+  grid-template-columns: 0.9fr 48px 1.35fr 48px 0.9fr;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.intel-col-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a0785c;
+  margin-bottom: 0.85rem;
+}
+
+.intel-stack {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.intel-card {
+  border-radius: 14px;
+  padding: 1.05rem 1.1rem;
+  position: relative;
+}
+
+.intel-card.light {
+  background: #ebe4d8;
+  border: 1px solid rgba(80, 60, 40, 0.08);
+}
+
+.intel-card.light.accent {
+  border-color: #b56a45;
+  box-shadow: inset 0 0 0 1px rgba(181, 106, 69, 0.25);
+}
+
+.intel-card.dark {
+  background: #2f2924;
+  color: #f3ebe1;
+}
+
+.intel-card h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
+
+.intel-card.dark h3 {
+  color: #f7f0e6;
+}
+
+.intel-card p {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7a6a5a;
+  font-weight: 600;
+}
+
+.intel-card.dark p {
+  color: #cbb7a2;
+}
+
+.live-chip {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #1f7a45;
+  background: #d9f5e4;
+  border-radius: 999px;
+  padding: 0.18rem 0.45rem;
+  animation: chip-blink 2.2s ease-in-out infinite;
+}
+
+@keyframes chip-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+.intel-models {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.intel-bracket {
+  border-left: 2px solid rgba(47, 41, 36, 0.55);
+  border-right: 2px solid rgba(47, 41, 36, 0.55);
+  border-radius: 8px;
+  padding: 0.35rem 0.55rem;
+}
+
+.intel-flow {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+}
+
+.intel-flow svg {
+  width: 100%;
+  height: 320px;
+  overflow: visible;
+}
+
+.intel-path {
+  fill: none;
+  stroke: #d7c9b6;
+  stroke-width: 2;
+}
+
+.intel-pulse {
+  filter: drop-shadow(0 0 4px rgba(181, 106, 69, 0.55));
+}
+
+.intel-feedback {
+  margin-top: 0.9rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a0785c;
+  border-top: 1px dashed rgba(160, 120, 92, 0.45);
+  padding-top: 0.65rem;
+}
+
+
 /* ---------- Talk to us page ---------- */
 .talk-page {
   background: #eaf2fb;
@@ -999,8 +1186,18 @@ ul {
   .contact-box,
   .services-grid,
   .offices-grid,
-  .talk-wrap {
+  .talk-wrap,
+  .intel-board,
+  .intel-models {
     grid-template-columns: 1fr;
+  }
+
+  .intel-flow {
+    display: none;
+  }
+
+  .intel-section {
+    padding: 4rem 0;
   }
 
   .hero {
